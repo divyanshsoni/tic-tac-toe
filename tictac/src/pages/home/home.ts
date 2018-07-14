@@ -10,5 +10,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+openSelect(){
+  this.navCtrl.push('SelectPage');
+}
 }

@@ -1,0 +1,73 @@
+<!--
+  Generated template for the SelectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header >
+
+  <ion-navbar class="navbar" >
+    
+      <button ion-button color="dark" clear large>
+        <ion-icon name="home"></ion-icon>
+      </button>
+      <span>
+        
+      </span>
+     
+      
+    
+  </ion-navbar>
+
+</ion-header> -->
+<ion-header>
+
+    <ion-navbar color="dark">
+      <!-- <button ion-button icon-only clear color="dark">
+        <ion-icon name="home"></ion-icon>
+      </button> -->
+  
+      <ion-title >
+        Select Play Mode
+      </ion-title>
+  
+      
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-content style="background-color: black" >
+    
+  <ion-grid no-padding style="margin-top:4vh;">
+    <ion-row>
+      <ion-col offset-1 col-2>
+        <img src="../../assets/imgs/background.jpg" (click)="openProfile()" class="circle-pic">
+      </ion-col>
+      <ion-col col-9 style="display: flex;align-items: center;">
+        <h1 class="select">Welcome Divyansh</h1>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  
+  <h1 style="margin-top:10vh;font-style: italic;font-size: 2em;color: white;text-align: center">Select the mode to get started !!</h1>
+   
+     <button style="margin-top: 10%;margin-left:23%;font-size: 1em " ion-button icon-start color="default" (click)="openGame()" >
+        <ion-icon name="phone-portrait"></ion-icon> Multiplayer Offline
+     </button>
+     <span>
+       <button style="font-size: 1em;margin-left:23%" ion-button icon-start color="default" (click)="openChallenge()" >
+          <ion-icon name="people"></ion-icon> Multiplayer Online
+      <!-- <ion-select>
+        <ion-option>Local Machine</ion-option>
+        <ion-option>Online</ion-option>
+      </ion-select> -->
+      </button>
+    </span>
+
+    <h1 style="margin-top:10%;font-style: italic;font-size: 1.8em;color: white;text-align: center">Check out the Leaderboard to know where you stand!!</h1>
+    <button style="margin-top: 8%;margin-left:30%;font-size: 1em " ion-button icon-start color="default" (click)="openLeaderboard()" >
+      <ion-icon name="ios-people"></ion-icon> Leaderboard
+   </button>
+ </ion-content>
+ 

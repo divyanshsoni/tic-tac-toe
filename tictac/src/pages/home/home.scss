@@ -1,3 +1,16 @@
-page-home {
+// .pane{
+//     background: url(../background.jpg) no-repeat center center fixed; 
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+// }
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
 
+.home{
+    font-family: 'Wendy One';
+    padding-top: 7vh;
+    text-align: center;
+    font-style: italic;
+    font-size: 3.755em;
+    color: white
 }

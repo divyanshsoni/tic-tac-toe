@@ -1,73 +1,16 @@
-<ion-header>
-  <ion-navbar>
-    <ion-row>
-      <ion-col col-3>
-        <ion-icon md="md-home" style="margin-right: 5px"></ion-icon>
-        <ion-icon md="md-arrow-round-back" ></ion-icon>
-      </ion-col>
-      <ion-col col-6>
-          <ion-title style="text-align: center">
-              Game Page
-            </ion-title>
-      </ion-col>
-      <ion-col col-3>
-        
-      </ion-col>
-    </ion-row>
-   
-  </ion-navbar>
-</ion-header>
-
-<ion-content >
-  <ion-row style="margin-top: 10px" >
-    <ion-col style="text-align: left;padding: 10px">
-      <ion-icon  md="md-happy"> USER1 </ion-icon>
-    </ion-col>
-    <ion-col style="text-align: right;padding: 10px">
-        <ion-icon  md="md-happy"> USER2 </ion-icon>
-    </ion-col>
-  </ion-row>
-   
-   <ion-grid style="padding: 50px;margin-top:100px">
-      <ion-row style="border-bottom: solid">
-        <ion-col style="border-right:solid">
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">X</button>
-        </ion-col>
-        <ion-col style="border-right:solid">
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">O</button>
-        </ion-col>
-        <ion-col >
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">X</button>
-        </ion-col>
-      </ion-row>
-      <ion-row style="border-bottom: solid">
-          <ion-col style="border-right:solid">
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-        </ion-col>
-          <ion-col style="border-right:solid;">
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-        </ion-col>
-          <ion-col >
-            <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-        </ion-col>
-        </ion-row>
-        <ion-row >
-            <ion-col style="border-right:solid;">
-                <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-            </ion-col>
-            <ion-col style="border-right:solid;">
-                <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-            </ion-col>
-            <ion-col >
-                <button ion-button block outline style="width: 73px;height: 40px;font-size: 30px;border: 0px">&nbsp;&nbsp;</button>
-            </ion-col>
-          </ion-row>
-    </ion-grid>
-
-    
-    <button ion-button color="danger" round style="margin-left: 25%;margin-top: 100px">END</button>
-    <span><button ion-button color="danger" round style="margin-top: 100px">START</button></span>
-    
-
-   
+<ion-content style="background-color:black;" padding>
+  <!-- <ion-view class="pane"> -->
+  <h1 class="home">Tic-Tac-Toe</h1>
+  <ion-row style="align-items:center">
+    <ion-col style="text-align:center">
+      <h1 style="margin-top: 50%;font-style: italic;font-size: 2em;color: white">To Play you need to Sign-In first,</h1>
+  <button ion-button icon-start style="margin-top:10%;font-size: 1em;color: white" (click)="openSelect()" >
+    <ion-icon name="logo-facebook"></ion-icon> Sign In with Facebook
+  </button>
+  <button ion-button icon-start style="font-size: 1em;background-color: #dd4b39" (click)="openSelect()" >
+      <ion-icon name="logo-google"></ion-icon> Sign In with Google
+    </button>
+</ion-col>
+</ion-row>
+<!-- </ion-view> -->
 </ion-content>
